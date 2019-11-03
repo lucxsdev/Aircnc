@@ -1,13 +1,23 @@
 import React from 'react';
 import './App.css';
 
+import logo from './assets/logo.svg';
+
+import Routes from './routes';
+
 function App() {
+
   return (
-    <h1>hrrr</h1>
+    <div className="container">
+      <img src={logo} alt="Aircnc"/>
+        <div className="content">
+          <Routes/>
+        </div>
+    </div>
   );
 }
 
 export default App;
 
 
-// 23 minutos
+// 57 minutos
