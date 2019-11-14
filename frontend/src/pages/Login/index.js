@@ -17,10 +17,6 @@ const [email, setEmail] = useState('');
 
     localStorage.setItem('user', _id);
 
-    const teste = localStorage.getItem('user');
-
-    console.log(teste);
-
     history.push('/dashboard');
   }
 
